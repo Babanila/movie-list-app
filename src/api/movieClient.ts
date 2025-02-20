@@ -37,7 +37,7 @@ export const createClient = (
 
             cache.setItem(url, JSON.stringify(result));
             cache.setItem('total-results', JSON.stringify(total));
-            return { result: [], total };
+            return { result, total };
         } catch (error) {
             console.error(error);
             return 'Error fetching movies';
