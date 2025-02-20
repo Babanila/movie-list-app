@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# Getting Started with "Movie List App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Movie List App](https://github.com/Babanila/movie-list-app).
+
+## Before running the App
+
+- Create a file called .env in the root directory
+- Add `REACT_APP_SERVER_URL="https://november7-730026606190.europe-west1.run.app"` to the file.
+
 
 ## Available Scripts
 
