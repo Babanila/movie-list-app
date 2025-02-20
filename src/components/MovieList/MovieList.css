@@ -1,0 +1,76 @@
+.empty-movie-list {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.movie-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 16px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.movie-item {
+    width: 100%;
+    border: 2px solid var(--border-color-gray);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+.movie-item:hover {
+    border: 2px solid var(--color-blue);
+}
+
+.movie-item > a {
+    color: var(--base-font-color);
+    text-decoration: none;
+}
+
+.movie-item-info {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+}
+
+.movie-item-poster {
+    width: 100%;
+    height: auto;
+}
+
+.image-skeleton {
+    height: 445px;
+    width: 100%;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.movie-description {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 600px) {
+    .movie-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 900px) {
+    .movie-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 1200px) {
+    .movie-list {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
