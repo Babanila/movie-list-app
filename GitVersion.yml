@@ -1,0 +1,9 @@
+branches:
+  main:
+    mode: ContinuousDeployment
+    tag: beta
+  pull-request:
+    mode: ContinuousDeployment
+    tag: alpha
+
+next-version: 1.0.0
