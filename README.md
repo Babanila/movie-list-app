@@ -1,4 +1,4 @@
-# Getting Started with "Movie List App
+# Getting Started with Movie List App
 
 This project was bootstrapped with [Movie List App](https://github.com/Babanila/movie-list-app).
 
