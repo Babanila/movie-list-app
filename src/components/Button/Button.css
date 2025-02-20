@@ -1,0 +1,25 @@
+.primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    font-size: var(--size-md);
+    font-weight: 600;
+    color: var(--base-font-color);
+    background: #f8f9fa;
+    border: 1px solid var(--border-color-gray);
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.primary:hover {
+    background: #e6e6e6;
+}
+
+@media (min-width: 768px) {
+    .primary {
+        font-size: 1.1rem;
+        padding: 12px 20px;
+    }
+}
